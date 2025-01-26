@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name ="viewport" content ="width=device-width,initial scale = 1.0">
+<title>cafe/contact</title>
+<style>
+  
+   body{
+    background-color: brown;
+   }
+ 
+</style>
+</head>
+<header style="display: list-item; text-align:center ;background-color:brown; border-inline-start;color:rgb(75, 16, 16);height: 200px;">
+<image src="cafe.webp" alt="Coffee Place" style="height:150px; margin-right:40px; border-radius:50%;align-content: center;">
+<h1 style="margin:0; font-size:2rem; box-shadow: 0.5;">Coffee Place</h1>
+</header>
+<body style="font-family:arial,sans-serif;margin:0">
+</header>
+<nav style ="background-color:#333;overflow:hidden;text-align:center">
+  <a href="homepage.html" style="float:left; display:block;color:white;padding:14px 20px; text-decoration:none">home</a>
+  <a href="photos.html" style="float:left; display:block;color:white;padding:14px 20px; text-decoration:none">gallery</a>
+  <a href="menu.html" style="float:left; display:block;color:white;padding:14px 20px; text-decoration:none">Menu</a>
+  <a href="contactus.html" style="float:left; display:block;color:white;padding:14px 20px; text-decoration:none">contact</a>
+  </nav>
+  <main style ="display:flex;padding:  2rem;max-width: 1400px;margin: auto;gap: 2rem;background-color: brown;">
+    <section style="flex:2;background-color: bisque;padding: 2rem;">
+        <h2 style="font-size: xx-large;font-family:'Times New Roman', Times, serif;color: brown;"> Hope you have enjoyed food and the vibe.
+          Food reviews are always important.
+          So, here is the review section,please write your reviews 
+          and suggesstion here.</h2>
+         <h1 style="font-size: xx-large;font-family: Arial, Helvetica, sans-serif;color:black;">Thank you! for visiting.</h1>
+       
+        <form>
+            <div>
+<label style ="margin-bottom: 1rem;display: block;font-size: x-large;">Name:</label>
+<input type ="text" style ="padding: 1rem;" placeholder="your full name">
+            </div>
+
+  <div>
+<label style ="margin-bottom: 1rem;display: block;font-size: x-large;margin-top: 20px;">Review:</label>
+<textarea type ="text" style ="padding: 3rem" placeholder="write your review here"></textarea>
+            </div>
+            
+            <div>
+              <label style="margin-bottom: 1rem;display: block;font-size: x-large; margin-top: 20px;">Suggesstions:</label>
+              <textarea type ="text" style ="padding: 3rem" placeholder="write your suggesstions here" ></textarea>
+          </div>
+          <input type="submit" style="padding: 0.5rem; margin-top: 20px;">
+      </form>
+  </section>
+  <aside style="background-color: bisque;padding: 2rem;flex:1">
+      <h2 style="font: 400;font-style: inherit;">Our Location</h2>
+      <address style="font-size: xx-large;font: 300;color: brown;font-family: 'Courier New', Courier, monospace;">
+          Coffee Place <br>
+          Sector 59,<br>
+          DLF Galleria,DLF phase 4,<br>
+          Gurgaon<br>
+          PIN Code:122009<br>
+          phone:<a href ="tel:=+911234567890">+911234567890</a><br>
+          email:<a href="mailto:coffeeplace59@gmail.com">coffeeplace59@gmail.com</a><br>
+      </address>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.4115633589804!2d77.07916547559768!3d28.467149675755568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d18de79b6f669%3A0x4c04b371afda3bbe!2sDLF%20Galleria!5e0!3m2!1sen!2sin!4v1737732211228!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </aside>
+  
+
+
+<script>
+    const paramas = new URLSearchparamas(window.location.search);
+    const username = params.get('username')
+    document.getElementById('username').textContent = username ? username: "guest";
+    
+</script>
+
+</body>
+</html> 

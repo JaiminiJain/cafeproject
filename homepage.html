@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name ="viewport" content ="width=device-width,initial scale = 1.0">
+<title>cafe/home</title>
+<style>
+  /* Container holding the image and the text */
+/*.container {
+  position: relative;
+  text-align: center;
+  color: white;}*/
+  .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+   
+  
+
+
+</style>
+</head>
+<header style="display: list-item; text-align:center ;background-color:brown; border-inline-start;color:rgb(75, 16, 16);height: 200px;">
+<image src="cafe.webp" alt="Coffee Place" style="height:150px; margin-right:40px; border-radius:50%;align-content: center;">
+<h1 style="margin:0; font-size:2rem; box-shadow: 0.5;">Coffee Place</h1>
+</header>
+<body style="font-family:arial,sans-serif;margin:0">
+
+<nav style ="background-color:#333;overflow:hidden;text-align:center">
+  <a href="homepage.html" style="float:left; display:block;color:white;padding:14px 20px; text-decoration:none">home</a>
+  <a href="photos.html" style="float:left; display:block;color:white;padding:14px 20px; text-decoration:none">gallery</a>
+  <a href="menu.html" style="float:left; display:block;color:white;padding:14px 20px; text-decoration:none">Menu</a>
+  <a href="contactus.html" style="float:left; display:block;color:white;padding:14px 20px; text-decoration:none">contact</a>
+  </nav>
+  <img src="https://i.pinimg.com/736x/c1/97/31/c19731b53c08b6c289a37326ce4ed158.jpg" alt="cafe" style="width: 100%;height: 100%;top: 210px;">  
+
+    <div class="centered">
+      <h1 style="color: white;font-style: italic;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Welcome to Coffee Place!</h1>
+      <p style="color: white;text-align: center;;">We are open 7 days a week</p>
+      <h1 style="color: white;text-align: center;">8AM-9PM</h1>
+    </div>
+  
+
+
+<script>
+    const paramas = new URLSearchparamas(window.location.search);
+    const username = params.get('username')
+    document.getElementById('username').textContent = username ? username: "guest";
+    
+</script>
+
+</body>
+</html> 

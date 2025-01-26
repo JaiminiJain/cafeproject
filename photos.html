@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name ="viewport" content ="width=device-width,initial scale = 1.0">
+<title>cafe/photo</title>
+<style>
+  /* Container holding the image and the text */
+/*.container { 
+  position: relative;
+  text-align: center;
+  color: white;}
+  .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}*/
+body{
+    background-color: cornsilk;
+}
+.box{
+            height: 550px;
+            width: 24%;
+            text-align: center;
+            line-height: 2in;
+            margin-bottom: 20px;
+            color: white;
+            font-weight: bold;
+            display: inline-block;
+            
+        }
+  .background-image1{
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5ca7eb2aa56827a4cf407fd9/1561331365770-I9B1DPPCXK5ERP68H5BX/spyhouse_stpaul_latte_croissant.jpg");
+    background-size: cover;
+    margin-left: 20px;
+  } 
+  .background-image2{
+    background-image: url("https://i.pinimg.com/736x/c2/00/09/c200092f2d3ae5487446dbc0e6fcd08b.jpg");
+    background-size: cover;
+  } 
+  .background-image3{
+    background-image: url("https://images.stockcake.com/public/0/c/4/0c4549b6-2834-46f0-a0d3-93fb61c508c3_large/urban-chic-cafe-stockcake.jpg");
+    background-size: cover;
+  } 
+  .background-image4{
+    background-image: url("https://img.freepik.com/free-photo/cup-latte-with-chocolate-sprinkled-cheesecake_140725-8133.jpg");
+    background-size: cover;
+  } 
+ 
+ 
+</style>
+</head>
+<header style="display: list-item; text-align:center ;background-color:brown; border-inline-start;color:rgb(75, 16, 16);height: 200px;">
+<image src="cafe.webp" alt="Coffee Place" style="height:150px; margin-right:40px; border-radius:50%;align-content: center;">
+<h1 style="margin:0; font-size:2rem; box-shadow: 0.5;">Coffee Place</h1>
+</header>
+<body style="font-family:arial,sans-serif;margin:0">
+</header>
+<nav style ="background-color:#333;overflow:hidden;text-alighn:center">
+  <a href="homepage.html" style="float:left; display:block;color:white;padding:14px 20px; text-decoration:none">home</a>
+  <a href="photos.html" style="float:left; display:block;color:white;padding:14px 20px; text-decoration:none">gallery</a>
+  <a href="menu.html" style="float:left; display:block;color:white;padding:14px 20px; text-decoration:none">Menu</a>
+  <a href="contactus.html" style="float:left; display:block;color:white;padding:14px 20px; text-decoration:none">contact</a>
+  </nav>
+  <h1 class="background-image1 box" style="font-size: xx-large;color: white;">Aesthetic</h1>
+  <h1 class="background-image2 box" style="font-size: xx-large;color: white;">Sassy</h1>
+  <h1 class="background-image3 box" style="font-size: xx-large;color: white;">Classy</h1>
+  <h1 class="background-image4 box" style="font-size: xx-large;color: white;">Sweet</h1>
+  
+  
+
+
+<script>
+    const paramas = new URLSearchparamas(window.location.search);
+    const username = params.get('username')
+    document.getElementById('username').textContent = username ? username: "guest";
+    
+</script>
+
+</body>
+</html> 
